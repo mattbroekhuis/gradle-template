@@ -29,7 +29,7 @@ Merging in the build should be a four step process: merge, customize, test and d
 ### Merging
 This will pull in the template:
 
-    git remote add --track $BRANCH build git@github.com:Netflix/gradle-template.git
+    git remote add --track $BRANCH build https://github.com/mattbroekhuis/gradle-template.git
     git fetch build
     git merge build/$BRANCH
 
